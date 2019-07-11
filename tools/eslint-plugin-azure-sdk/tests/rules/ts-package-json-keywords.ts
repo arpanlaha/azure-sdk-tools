@@ -235,8 +235,10 @@ const examplePackageBad = `{
 // Tests
 //------------------------------------------------------------------------------
 
+const parserPath = require.resolve("@typescript-eslint/parser");
+
 const ruleTester = new RuleTester({
-  parser: "@typescript-eslint/parser",
+  parser: parserPath,
   parserOptions: {
     project: "./tsconfig.json"
   }

@@ -47,10 +47,11 @@
     "@types/eslint": "^4.16.6",
     "@types/estree": "0.0.39",
     "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "chai": "^4.2.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "mocha": "^6.1.4",
     "prettier": "^1.18.2",
     "typescript": "^3.4.5"
